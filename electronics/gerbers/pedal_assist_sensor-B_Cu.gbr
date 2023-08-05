@@ -1,0 +1,39 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.6-7.0.6~ubuntu22.04.1*%
+%TF.CreationDate,2023-08-04T21:53:36+03:00*%
+%TF.ProjectId,pedal_assist_sensor,70656461-6c5f-4617-9373-6973745f7365,rev?*%
+%TF.SameCoordinates,PX3d09000PY6052340*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.6-7.0.6~ubuntu22.04.1) date 2023-08-04 21:53:36*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentPad*%
+%ADD10R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11O,1.700000X1.700000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,J2,1,Pin_1*%
+%TO.N,/5V*%
+X3130000Y-11200000D03*
+D11*
+%TO.P,J2,2,Pin_2*%
+%TO.N,GND*%
+X5670000Y-11200000D03*
+%TO.P,J2,3,Pin_3*%
+%TO.N,/OUT*%
+X8210000Y-11200000D03*
+%TO.P,J2,4,Pin_4*%
+%TO.N,/UPDI*%
+X10750000Y-11200000D03*
+%TO.P,J2,5,Pin_5*%
+%TO.N,/USART_TX*%
+X13290000Y-11200000D03*
+%TD*%
+M02*
