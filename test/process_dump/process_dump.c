@@ -24,8 +24,8 @@ int main()
             fread(data + 1, 1, sizeof(data) - 1, stdin);
         }
 
-        uint16_t a = data[1] | ((uint16_t)data[2] << 8);
-        uint16_t b = data[3] | ((uint16_t)data[4] << 8);
+        int16_t a = data[1] | ((uint16_t)data[2] << 8);
+        int16_t b = data[3] | ((uint16_t)data[4] << 8);
 
         int8_t result = gear_sensor_process(&state, a, b);
 
